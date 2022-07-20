@@ -1,0 +1,12 @@
+Some scripts for Ruby.
+
+subtitle_retiming.rb
+subtitle_retiming2.rb
+Old and rarely used scripts for retiming text-based subtitles (ASS, SRT, IDX/SUB) by lines.
+subtitle_retiming2.rb is just a refactoring of subtitle_retiming.rb to make addition of subtitle formats easy.
+Four arguments for input:
+ first argument is a subtitle file,
+ second argument is the first line in the file to retime,
+ third argument is the last line in the file to retime,
+ fourth argument is a time delay in seconds.
+The input file is overwriting by the retimed subtitle.
